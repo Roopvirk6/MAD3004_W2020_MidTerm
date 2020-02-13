@@ -13,7 +13,10 @@ public class Customer
     var customerId : String
     var firstName : String
     var lastName : String
-    var fullName : String 
+    var fullName : String
+    var emailId :  String
+    
+    
     
     
 }

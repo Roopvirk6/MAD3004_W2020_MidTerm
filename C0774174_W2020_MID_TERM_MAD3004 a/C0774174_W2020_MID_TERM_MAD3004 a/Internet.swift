@@ -11,8 +11,8 @@ import Foundation
 public class Internet : Bill
 {
     var providerName : String
-    var internetGBUsed : Float
-    init(billId : Int, billDate : Date, billType : Enum.type, totalBillAmount : Double, providerName : String, internetGBUsed : Float)
+    var internetGBUsed : Int
+    init(billId : Int, billDate : String, billType : Enum.type, totalBillAmount : Float, providerName : String, internetGBUsed : Int)
 
     {
         
@@ -22,6 +22,13 @@ public class Internet : Bill
         
         super.init(billId: billId, billDate: billDate, billType: billType, totalBillAmount: totalBillAmount)
         }
+    
+    override func display()
+    {
+        super.display()
+        print("Provider name: \(providerName)")
+        print("Internet GB used: \(internetGBUsed)")
+    }
     
     
     

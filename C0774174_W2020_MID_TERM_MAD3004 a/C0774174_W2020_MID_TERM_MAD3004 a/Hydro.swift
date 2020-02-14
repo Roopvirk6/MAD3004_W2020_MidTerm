@@ -13,8 +13,9 @@ public class Hydro
     var agencyName : String
     var unitsConsumed : Double
     
-    init(<#parameters#>) {
-        <#statements#>
+    init(agencyName : String, unitsConsumed : Double) {
+        self.agencyName = agencyName
+        self.unitsConsumed = unitsConsumed
     }
     
     

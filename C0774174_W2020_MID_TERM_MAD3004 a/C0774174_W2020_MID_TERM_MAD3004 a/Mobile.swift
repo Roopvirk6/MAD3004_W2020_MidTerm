@@ -14,9 +14,9 @@ public class Mobile : Bill
     var planName : String
     var mobileNumber : Int
     var internetGBUsed : Int
-    var minutes : Float
+    var minutes : Int
     
-init(billId : Int, billDate : Date, billType : Enum.type, totalBillAmount : Double, mobileManufacturerName : String, planName : String, mobileNumber : Int, internetGBUsed : Int, minutes : Float)
+init(billId : Int, billDate : String, billType : Enum.type, totalBillAmount : Float, mobileManufacturerName : String, planName : String, mobileNumber : Int, internetGBUsed : Int, minutes : Int)
 {
     
            self.mobileManufacturerName = mobileManufacturerName
@@ -27,6 +27,17 @@ init(billId : Int, billDate : Date, billType : Enum.type, totalBillAmount : Doub
     
     super.init(billId: billId, billDate: billDate, billType: billType, totalBillAmount: totalBillAmount)
     
+    }
+    
+    override func display()
+    {
+        super.display()
+        print("Mobile Manufactuer Name : \(mobileManufacturerName)")
+        print("Plan name: \(planName)")
+        print("Mobile number: \(mobileNumber)")
+        print("Internet GB Used: \(internetGBUsed)")
+        print("Minutes Used: \(minutes)")
+        
     }
     
     

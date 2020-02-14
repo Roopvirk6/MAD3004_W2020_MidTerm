@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B70857323F60BAC00C661FD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B70857223F60BAC00C661FD /* main.swift */; };
+		9BAD066623F75EEC00D04929 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAD066523F75EEC00D04929 /* Bill.swift */; };
+		9BAD066823F75F1900D04929 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAD066723F75F1900D04929 /* Customer.swift */; };
+		9BAD066F23F75F3300D04929 /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAD066923F75F3300D04929 /* Hydro.swift */; };
+		9BAD067023F75F3300D04929 /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAD066A23F75F3300D04929 /* Internet.swift */; };
+		9BAD067123F75F3300D04929 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAD066B23F75F3300D04929 /* Enum.swift */; };
+		9BAD067223F75F3300D04929 /* Mobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAD066C23F75F3300D04929 /* Mobile.swift */; };
+		9BAD067423F75F3300D04929 /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAD066E23F75F3300D04929 /* IDisplay.swift */; };
+		9BAD067623F75F6B00D04929 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAD067523F75F6B00D04929 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +31,14 @@
 
 /* Begin PBXFileReference section */
 		9B70856F23F60BAC00C661FD /* C0774174_W2020_MID_TERM_MAD3004 a */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C0774174_W2020_MID_TERM_MAD3004 a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B70857223F60BAC00C661FD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9BAD066523F75EEC00D04929 /* Bill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
+		9BAD066723F75F1900D04929 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		9BAD066923F75F3300D04929 /* Hydro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
+		9BAD066A23F75F3300D04929 /* Internet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
+		9BAD066B23F75F3300D04929 /* Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		9BAD066C23F75F3300D04929 /* Mobile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mobile.swift; sourceTree = "<group>"; };
+		9BAD066E23F75F3300D04929 /* IDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
+		9BAD067523F75F6B00D04929 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +71,14 @@
 		9B70857123F60BAC00C661FD /* C0774174_W2020_MID_TERM_MAD3004 a */ = {
 			isa = PBXGroup;
 			children = (
-				9B70857223F60BAC00C661FD /* main.swift */,
+				9BAD066B23F75F3300D04929 /* Enum.swift */,
+				9BAD066923F75F3300D04929 /* Hydro.swift */,
+				9BAD066E23F75F3300D04929 /* IDisplay.swift */,
+				9BAD066A23F75F3300D04929 /* Internet.swift */,
+				9BAD066C23F75F3300D04929 /* Mobile.swift */,
+				9BAD066723F75F1900D04929 /* Customer.swift */,
+				9BAD066523F75EEC00D04929 /* Bill.swift */,
+				9BAD067523F75F6B00D04929 /* main.swift */,
 			);
 			path = "C0774174_W2020_MID_TERM_MAD3004 a";
 			sourceTree = "<group>";
@@ -120,7 +141,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B70857323F60BAC00C661FD /* main.swift in Sources */,
+				9BAD066F23F75F3300D04929 /* Hydro.swift in Sources */,
+				9BAD066823F75F1900D04929 /* Customer.swift in Sources */,
+				9BAD067623F75F6B00D04929 /* main.swift in Sources */,
+				9BAD067123F75F3300D04929 /* Enum.swift in Sources */,
+				9BAD067223F75F3300D04929 /* Mobile.swift in Sources */,
+				9BAD066623F75EEC00D04929 /* Bill.swift in Sources */,
+				9BAD067023F75F3300D04929 /* Internet.swift in Sources */,
+				9BAD067423F75F3300D04929 /* IDisplay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

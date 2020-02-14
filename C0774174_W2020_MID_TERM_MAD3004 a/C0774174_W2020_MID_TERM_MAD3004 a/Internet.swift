@@ -11,9 +11,9 @@ import Foundation
 public class Internet
 {
     var providerName : String
-    var internetGBUsed : Int
+    var internetGBUsed : Float
     
-    init(<#parameters#>) {
+    init(providerName : String, internetGBUsed : Float) {
         <#statements#>
     }
     

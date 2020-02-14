@@ -32,6 +32,17 @@ public class Customer
         //self.totalBillToPay = totalBillToPay
     
     }
+    func display()
+    {
+        print("customer id \(customerId)")
+        print("firstname \(firstName)")
+        print("lastname \(lastName)")
+        print("fullname \(fullName)")
+        print("email id \(emailId)")
+        print("billDictionary \(billDictionary)")
+        //print("total bill to pay \(totalBillToPay)")
+        
+    }
     
     
     

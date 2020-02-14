@@ -16,6 +16,9 @@ public class Customer
     var fullName : String
     var emailId :  String
     var billDictionary = [String]()
+    var totalBillToPay : Double
+    
+    
     
     
     

@@ -16,6 +16,10 @@ public class Bill
     var billType : Enum.type
     var totalBillAmount : Double
     
+    init() {
+        <#statements#>
+    }
+    
     
     
 }

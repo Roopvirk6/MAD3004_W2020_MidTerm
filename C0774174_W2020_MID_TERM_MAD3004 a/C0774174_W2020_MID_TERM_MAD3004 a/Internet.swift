@@ -8,15 +8,28 @@
 
 import Foundation
 
-public class Internet
+public class Internet : Bill
 {
     var providerName : String
     var internetGBUsed : Float
+    init(billId : Int, billDate : Date, billType : Enum.type, totalBillAmount : Double, providerName : String, internetGBUsed : Float)
+
+    {
+        
     
-    init(providerName : String, internetGBUsed : Float) {
         self.providerName = providerName
         self.internetGBUsed = internetGBUsed
+        
+        super.init(billId: billId, billDate: billDate, billType: billType, totalBillAmount: totalBillAmount)
+        
+        
+        
+        
+        
+        
     }
+    
+    
     
     
 }

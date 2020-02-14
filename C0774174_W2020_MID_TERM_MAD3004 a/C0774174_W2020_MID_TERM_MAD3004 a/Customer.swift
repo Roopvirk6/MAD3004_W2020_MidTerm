@@ -18,18 +18,18 @@ public class Customer
         return firstName+lastName
     }
     var emailId :  String
-    var billDictionary = [String]()
-    var totalBillToPay : Double
+    var billDictionary : [String: Double]
+    //var totalBillToPay : Double
     
-    init(customerId : Int, firstName : String, lastName : String, fullName : String, emailId : String, billDictionary : String, totalBillToPay : Double)
+    init(customerId : Int, firstName : String, lastName : String, emailId : String, billDictionary : [String: Double], totalBillToPay : Double)
     {
         self.customerId = customerId
         self.firstName = firstName
         self.lastName = lastName
-        self.fullName = fullName
+        //self.fullName = fullName
         self.emailId = emailId
-        self.billDictionary = [billDictionary]
-        self.totalBillToPay = totalBillToPay
+        self.billDictionary = billDictionary
+        //self.totalBillToPay = totalBillToPay
     
     }
     

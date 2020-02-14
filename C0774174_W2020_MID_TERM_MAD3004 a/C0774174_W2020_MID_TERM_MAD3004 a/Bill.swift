@@ -16,8 +16,12 @@ public class Bill
     var billType : Enum.type
     var totalBillAmount : Double
     
-    init() {
-        <#statements#>
+    init(billId : Int, billDate : Date, billType : Enum.type, totalBillAmount : Double)
+    {
+        self.billId = billId
+        self.billDate = billDate
+        self.billType = billType
+        self.totalBillAmount = totalBillAmount
     }
     
     

@@ -12,16 +12,24 @@ public class Bill
 {
 
     var billId : Int
-    var billDate : Date
+    var billDate = String()
     var billType : Enum.type
-    var totalBillAmount : Double
+    var totalBillAmount : Float
     
-    init(billId : Int, billDate : Date, billType : Enum.type, totalBillAmount : Double)
+    init(billId : Int, billDate : String, billType : Enum.type, totalBillAmount : Float)
     {
         self.billId = billId
         self.billDate = billDate
         self.billType = billType
         self.totalBillAmount = totalBillAmount
+    }
+    
+    func display()
+    {
+        print("Bill ID: \(billId)")
+        print("Bill Date: \(billDate)")
+        print("Bill Type: \(billType)")
+        print("Bill Amount: \(totalBillAmount)")
     }
     
     

@@ -14,6 +14,9 @@ public class Customer
     var firstName : String
     var lastName : String
     var fullName : String
+    {
+        return firstName+lastName
+    }
     var emailId :  String
     var billDictionary = [String]()
     var totalBillToPay : Double

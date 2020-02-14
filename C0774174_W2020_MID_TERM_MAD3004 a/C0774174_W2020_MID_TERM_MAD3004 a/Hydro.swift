@@ -8,14 +8,17 @@
 
 import Foundation
 
-public class Hydro
+public class Hydro : Bill
 {
     var agencyName : String
     var unitsConsumed : Double
     
-    init(agencyName : String, unitsConsumed : Double) {
+    init(billId : Int, billDate : Date, billType : Enum.type, totalBillAmount : Double, agencyName : String, unitsConsumed : Double) {
+        
         self.agencyName = agencyName
         self.unitsConsumed = unitsConsumed
+        
+        super.init(billId: billId, billDate: billDate, billType: billType, totalBillAmount: totalBillAmount)
     }
     
     

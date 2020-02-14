@@ -21,13 +21,9 @@ public class Internet : Bill
         self.internetGBUsed = internetGBUsed
         
         super.init(billId: billId, billDate: billDate, billType: billType, totalBillAmount: totalBillAmount)
-        
-        
-        
-        
-        
-        
-    }
+        }
+    
+    
     
     
     

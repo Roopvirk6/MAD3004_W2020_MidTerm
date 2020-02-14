@@ -18,6 +18,17 @@ public class Customer
     var billDictionary = [String]()
     var totalBillToPay : Double
     
+    init(customerId : Int, firstName : String, lastName : String, fullName : String, emailId : String, billDictionary : String, totalBillToPay : Double)
+    {
+        self.customerId = customerId
+        self.firstName = firstName
+        self.lastName = lastName
+        self.fullName = fullName
+        self.emailId = emailId
+        self.billDictionary = [billDictionary]
+        self.totalBillToPay = totalBillToPay
+    
+    }
     
     
     

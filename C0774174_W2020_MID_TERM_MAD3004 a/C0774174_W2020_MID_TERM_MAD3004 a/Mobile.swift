@@ -16,6 +16,14 @@ public class Mobile
     var internetGBUsed : Int
     var minutes : Float
     
+    init(mobileManufacturerName : String, planName : String, mobileNumber : Int, internetGBUsed : Int, minutes : Float) {
+        self.mobileManufacturerName = mobileManufacturerName
+        self.planName = planName
+        self.mobileNumber = mobileNumber
+        self.internetGBUsed = internetGBUsed
+        self.minutes = minutes
+    }
+    
     
     
     

@@ -11,7 +11,11 @@ import Foundation
 public class Hydro
 {
     var agencyName : String
-    var unitsConsumed : Double 
+    var unitsConsumed : Double
+    
+    init(<#parameters#>) {
+        <#statements#>
+    }
     
     
 }

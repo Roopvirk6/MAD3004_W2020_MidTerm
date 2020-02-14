@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class Mobile
+public class Mobile : Bill
 {
     var mobileManufacturerName : String
     var planName : String
@@ -16,12 +16,17 @@ public class Mobile
     var internetGBUsed : Int
     var minutes : Float
     
-    init(mobileManufacturerName : String, planName : String, mobileNumber : Int, internetGBUsed : Int, minutes : Float) {
-        self.mobileManufacturerName = mobileManufacturerName
-        self.planName = planName
-        self.mobileNumber = mobileNumber
-        self.internetGBUsed = internetGBUsed
-        self.minutes = minutes
+init(billId : Int, billDate : Date, billType : Enum.type, totalBillAmount : Double, mobileManufacturerName : String, planName : String, mobileNumber : Int, internetGBUsed : Int, minutes : Float)
+{
+    
+           self.mobileManufacturerName = mobileManufacturerName
+           self.planName = planName
+           self.mobileNumber = mobileNumber
+           self.internetGBUsed = internetGBUsed
+           self.minutes = minutes
+    
+    super.init(billId: billId, billDate: billDate, billType: billType, totalBillAmount: totalBillAmount)
+    
     }
     
     

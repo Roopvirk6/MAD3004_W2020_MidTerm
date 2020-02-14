@@ -14,7 +14,8 @@ public class Internet
     var internetGBUsed : Float
     
     init(providerName : String, internetGBUsed : Float) {
-        <#statements#>
+        self.providerName = providerName
+        self.internetGBUsed = internetGBUsed
     }
     
     

@@ -10,11 +10,13 @@ import Foundation
 
 public class Customer
 {
-    var customerId : String
+    var customerId : Int
     var firstName : String
     var lastName : String
     var fullName : String
     var emailId :  String
+    var billDictionary = [String]()
+    
     
     
     

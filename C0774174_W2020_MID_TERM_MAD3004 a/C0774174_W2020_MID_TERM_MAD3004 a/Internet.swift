@@ -13,5 +13,9 @@ public class Internet
     var providerName : String
     var internetGBUsed : Int
     
+    init(<#parameters#>) {
+        <#statements#>
+    }
+    
     
 }

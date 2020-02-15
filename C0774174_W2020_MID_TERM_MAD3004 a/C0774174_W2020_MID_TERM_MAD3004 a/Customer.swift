@@ -10,39 +10,37 @@ import Foundation
 
 public class Customer : IDisplay
 {
-    var customerId : Int
-    var firstName : String
-    var lastName : String
-    var fullName : String
+    var custId : Int
+    var cfirstName : String
+    var clastName : String
+    var cfullName : String
     {
-        return firstName+lastName
+        return "\(self.cfirstName) \(self.clastName)"
     }
-    var emailId :  String
-    var billDictionary : [String: Double]
-    //var totalBillToPay : Double
+    var custemailId :  String
+    var billDictionary = [Int : Bill]()
+    var totalBillToPay : Float = 0.0
     
-    init(customerId : Int, firstName : String, lastName : String, emailId : String, billDictionary : [String: Double], totalBillToPay : Double)
+    init(custId : Int, cfirstName : String, clastName : String, custemailId : String)
     {
-        self.customerId = customerId
-        self.firstName = firstName
-        self.lastName = lastName
-        //self.fullName = fullName
-        self.emailId = emailId
-        self.billDictionary = billDictionary
-        //self.totalBillToPay = totalBillToPay
+        self.custId = custId
+        self.cfirstName = cfirstName
+        self.clastName = clastName
+        self.custemailId = custemailId
     
     }
+    
     func display()
     {
-        print("customer id \(customerId)")
-        print("firstname \(firstName)")
-        print("lastname \(lastName)")
-        print("fullname \(fullName)")
-        print("email id \(emailId)")
-        print("billDictionary \(billDictionary)")
-        //print("total bill to pay \(totalBillToPay)")
+        print("customer id \(custId)")
+        print("firstname \(cfirstName)")
+        print("lastname \(clastName)")
+        print("Customer fullname \(cfullName)")
+        print("Customer email id \(custemailId)")
+        
         
     }
+    
     
     
     

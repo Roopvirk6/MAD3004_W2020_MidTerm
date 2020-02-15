@@ -9,5 +9,9 @@
 import Foundation
 extension Int
 {
+    func concatUnits()->String
+    {
+        return "\(self) Units"
+    }
     
 }

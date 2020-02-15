@@ -19,4 +19,10 @@ extension Int
         return " \(self) GB"
     }
     
+    func concatMin() -> String
+    {
+           return " \(self) Minutes"
+    }
+       
+    
 }

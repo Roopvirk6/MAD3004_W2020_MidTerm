@@ -14,4 +14,9 @@ extension Int
         return "\(self) Units"
     }
     
+    func conactGB() ->String
+    {
+        return " \(self) GB"
+    }
+    
 }

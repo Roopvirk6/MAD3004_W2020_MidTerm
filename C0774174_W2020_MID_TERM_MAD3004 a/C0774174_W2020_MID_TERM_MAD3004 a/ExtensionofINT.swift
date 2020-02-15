@@ -9,17 +9,17 @@
 import Foundation
 extension Int
 {
-    func concatUnits()->String
+    func unitConcat()->String
     {
         return "\(self) Units"
     }
     
-    func conactGB() ->String
+    func gbConcat() ->String
     {
         return " \(self) GB"
     }
     
-    func concatMin() -> String
+    func minutesConcat() -> String
     {
            return " \(self) Minutes"
     }

@@ -10,7 +10,7 @@ import Foundation
 
 extension Float
 {
-    func Formatcurrency() -> String
+    func formatCurrency() -> String
     {
            return String(format: "$%0.2f", Float(self))
     }

@@ -27,7 +27,7 @@ public class Internet : Bill
     {
         super.display()
         print("Provider name: \(providerName)")
-        print("Internet GB used: \(internetGBUsed)")
+        print("Internet GB used: \(internetGBUsed.gbConcat())")
     }
     
     

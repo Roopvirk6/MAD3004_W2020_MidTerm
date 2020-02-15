@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9BA0B19E23F77C2E00CE5573 /* ExtensionofDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA0B19D23F77C2E00CE5573 /* ExtensionofDate.swift */; };
+		9BA0B1A023F77EBF00CE5573 /* ExtensionofINT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA0B19F23F77EBF00CE5573 /* ExtensionofINT.swift */; };
+		9BA0B1B523F7834600CE5573 /* Extensionoffloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA0B1B423F7834600CE5573 /* Extensionoffloat.swift */; };
 		9BAD066623F75EEC00D04929 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAD066523F75EEC00D04929 /* Bill.swift */; };
 		9BAD066823F75F1900D04929 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAD066723F75F1900D04929 /* Customer.swift */; };
 		9BAD066F23F75F3300D04929 /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAD066923F75F3300D04929 /* Hydro.swift */; };
@@ -31,6 +34,9 @@
 
 /* Begin PBXFileReference section */
 		9B70856F23F60BAC00C661FD /* C0774174_W2020_MID_TERM_MAD3004 a */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C0774174_W2020_MID_TERM_MAD3004 a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA0B19D23F77C2E00CE5573 /* ExtensionofDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionofDate.swift; sourceTree = "<group>"; };
+		9BA0B19F23F77EBF00CE5573 /* ExtensionofINT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionofINT.swift; sourceTree = "<group>"; };
+		9BA0B1B423F7834600CE5573 /* Extensionoffloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensionoffloat.swift; sourceTree = "<group>"; };
 		9BAD066523F75EEC00D04929 /* Bill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
 		9BAD066723F75F1900D04929 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 		9BAD066923F75F3300D04929 /* Hydro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
@@ -79,6 +85,9 @@
 				9BAD066723F75F1900D04929 /* Customer.swift */,
 				9BAD066523F75EEC00D04929 /* Bill.swift */,
 				9BAD067523F75F6B00D04929 /* main.swift */,
+				9BA0B19D23F77C2E00CE5573 /* ExtensionofDate.swift */,
+				9BA0B19F23F77EBF00CE5573 /* ExtensionofINT.swift */,
+				9BA0B1B423F7834600CE5573 /* Extensionoffloat.swift */,
 			);
 			path = "C0774174_W2020_MID_TERM_MAD3004 a";
 			sourceTree = "<group>";
@@ -141,14 +150,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BA0B1A023F77EBF00CE5573 /* ExtensionofINT.swift in Sources */,
 				9BAD066F23F75F3300D04929 /* Hydro.swift in Sources */,
 				9BAD066823F75F1900D04929 /* Customer.swift in Sources */,
 				9BAD067623F75F6B00D04929 /* main.swift in Sources */,
 				9BAD067123F75F3300D04929 /* Enum.swift in Sources */,
 				9BAD067223F75F3300D04929 /* Mobile.swift in Sources */,
+				9BA0B19E23F77C2E00CE5573 /* ExtensionofDate.swift in Sources */,
 				9BAD066623F75EEC00D04929 /* Bill.swift in Sources */,
 				9BAD067023F75F3300D04929 /* Internet.swift in Sources */,
 				9BAD067423F75F3300D04929 /* IDisplay.swift in Sources */,
+				9BA0B1B523F7834600CE5573 /* Extensionoffloat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

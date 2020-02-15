@@ -35,8 +35,8 @@ init(billId : Int, billDate : String, billType : Enum.type, totalBillAmount : Fl
         print("Mobile Manufactuer Name : \(mobileManufacturerName)")
         print("Plan name: \(planName)")
         print("Mobile number: \(mobileNumber)")
-        print("Internet GB Used: \(internetGBUsed)")
-        print("Minutes Used: \(minutes)")
+        print("Internet GB Used: \(internetGBUsed.gbConcat())")
+        print("Minutes Used: \(minutes.minutesConcat())")
         
     }
     

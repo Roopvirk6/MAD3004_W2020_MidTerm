@@ -18,7 +18,7 @@ public class Customer : IDisplay
         return "\(self.cfirstName) \(self.clastName)"
     }
     var custemailId :  String
-    var billDictionary = [Int : Bill]()
+    var dictionaryBill = [Int : Bill]()
     var totalBillToPay : Float = 0.0
     
     init(custId : Int, cfirstName : String, clastName : String, custemailId : String)
@@ -29,6 +29,22 @@ public class Customer : IDisplay
         self.custemailId = custemailId
     
     }
+    func additionofBillToCustomer(d:Bill){
+        dictionaryBill.updateValue(d, forKey: d.billId)
+    }
+    
+    //  func calculateTotalBillAmount() -> Float
+  //  {
+        //totalBillAmount = 0
+        //for n in dictionaryBill.values
+       // {
+            //totalBillToPay += n.billAmount
+       // }
+       // return Float(totalBillToPay)
+  //  }
+    
+    
+    
     
     func display()
     {
@@ -37,7 +53,23 @@ public class Customer : IDisplay
         print("lastname \(clastName)")
         print("Customer fullname \(cfullName)")
         print("Customer email id \(custemailId)")
-        
+        if dictionaryBill.isEmpty
+            {
+                print(" Specified Customer do not have Bill to pay")
+            }
+            else
+            {
+                for d in dictionaryBill.values
+                    
+                {
+                    d.display()
+                    print("************************")
+                    
+                }
+                print("Total Bill Amount to Pay: ")
+               
+            
+        }
         
     }
     

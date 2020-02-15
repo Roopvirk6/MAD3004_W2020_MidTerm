@@ -25,7 +25,7 @@ public class Hydro : Bill
     {
         super.display()
         print("Agency name: \(agencyName)")
-        print("Units consumed: \(unitsConsumed)")
+        print("Units consumed: \(unitsConsumed.unitConcat())")
     }
     
     

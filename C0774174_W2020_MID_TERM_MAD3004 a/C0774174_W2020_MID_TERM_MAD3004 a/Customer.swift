@@ -35,18 +35,18 @@ public class Customer : IDisplay
     
     func calculateTotalBillAmount() -> Float
     {
-        totalBillToPay = 0
+       totalBillToPay = 0
         for n in dictionaryBill.values
         {
-        totalBillToPay += n.totalBillAmount
+            totalBillToPay += n.totalBillAmount
+            
         }
         return Float(totalBillToPay)
     }
     
     func display()
     {
-        print("\t")
-        print("------CUSTOMER INFORMATION---------")
+        print("-------CUSTOMER INFORMATION--------")
         print("customer id \(custId)")
         print("firstname \(cfirstName)")
         print("lastname \(clastName)")
@@ -62,11 +62,11 @@ public class Customer : IDisplay
                     
                 {
                     d.display()
-                    print("*****************************************")
+                    print("----------------------------------\n")
                     
                 }
-                print("Total Bill Amount to Pay: ")
-               
+        print("Total Bill Amount to Pay: \(calculateTotalBillAmount().formatCurrency())")
+                print("----------------------------------\n")
             
         }
         

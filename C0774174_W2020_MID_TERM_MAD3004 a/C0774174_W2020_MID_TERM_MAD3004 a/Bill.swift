@@ -26,6 +26,7 @@ public class Bill
     
     func display()
     {
+        print("----------------------------------\n")
         print("Bill ID: \(billId)")
         print("Bill Date: \(billDate)")
         print("Bill Type: \(billType)")

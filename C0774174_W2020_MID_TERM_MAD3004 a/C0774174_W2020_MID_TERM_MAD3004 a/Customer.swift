@@ -33,21 +33,20 @@ public class Customer : IDisplay
         dictionaryBill.updateValue(d, forKey: d.billId)
     }
     
-    //  func calculateTotalBillAmount() -> Float
-  //  {
-        //totalBillAmount = 0
-        //for n in dictionaryBill.values
-       // {
-            //totalBillToPay += n.billAmount
-       // }
-       // return Float(totalBillToPay)
-  //  }
-    
-    
-    
+    func calculateTotalBillAmount() -> Float
+    {
+        totalBillToPay = 0
+        for n in dictionaryBill.values
+        {
+        totalBillToPay += n.totalBillAmount
+        }
+        return Float(totalBillToPay)
+    }
     
     func display()
     {
+        print("\t")
+        print("------CUSTOMER INFORMATION---------")
         print("customer id \(custId)")
         print("firstname \(cfirstName)")
         print("lastname \(clastName)")
@@ -63,7 +62,7 @@ public class Customer : IDisplay
                     
                 {
                     d.display()
-                    print("************************")
+                    print("*****************************************")
                     
                 }
                 print("Total Bill Amount to Pay: ")

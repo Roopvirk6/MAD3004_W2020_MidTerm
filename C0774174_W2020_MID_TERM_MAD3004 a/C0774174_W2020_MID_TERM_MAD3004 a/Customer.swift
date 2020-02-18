@@ -65,7 +65,7 @@ public class Customer : IDisplay
                     print("----------------------------------\n")
                     
                 }
-        print("Total Bill Amount to Pay: \(calculateTotalBillAmount().formatCurrency())")
+        print("\t\tTotal Bill Amount to Pay: \(calculateTotalBillAmount().formatCurrency())")
                 print("----------------------------------\n")
             
         }

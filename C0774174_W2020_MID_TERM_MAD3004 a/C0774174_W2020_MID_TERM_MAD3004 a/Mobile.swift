@@ -32,11 +32,11 @@ init(billId : Int, billDate : String, billType : Enum.type, totalBillAmount : Fl
     override func display()
     {
         super.display()
-        print("Mobile Manufactuer Name : \(mobileManufacturerName)")
-        print("Plan name: \(planName)")
-        print("Mobile number: \(mobileNumber)")
-        print("Internet GB Used: \(internetGBUsed.gbConcat())")
-        print("Minutes Used: \(minutes.minutesConcat())")
+        print("\t\tMobile Manufactuer Name : \(mobileManufacturerName)")
+        print("\t\tPlan name: \(planName)")
+        print("\t\tMobile number: \(mobileNumber)")
+        print("\t\tInternet GB Used: \(internetGBUsed.gbConcat())")
+        print("\t\tMinutes Used: \(minutes.minutesConcat())")
         
     }
     

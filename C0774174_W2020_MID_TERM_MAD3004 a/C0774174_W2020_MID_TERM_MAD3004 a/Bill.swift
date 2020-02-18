@@ -27,10 +27,10 @@ public class Bill
     func display()
     {
         print("----------------------------------\n")
-        print("Bill ID: \(billId)")
-        print("Bill Date: \(billDate)")
-        print("Bill Type: \(billType)")
-        print("Bill Amount: \(totalBillAmount.formatCurrency())")
+        print("\t\tBill ID: \(billId)")
+        print("\t\tBill Date: \(billDate)")
+        print("\t\tBill Type: \(billType)")
+        print("\t\tBill Amount: \(totalBillAmount.formatCurrency())")
     }
     
     

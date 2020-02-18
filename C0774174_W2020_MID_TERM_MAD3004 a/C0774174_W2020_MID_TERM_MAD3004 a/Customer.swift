@@ -29,6 +29,13 @@ public class Customer : IDisplay
         self.custemailId = custemailId
     
     }
+    
+    func isValidEmail(email: String) -> Bool {
+        let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
+
+        let emailPred = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
+        return emailPred.evaluate(with: email)
+    }
     func additionofBillToCustomer(d:Bill){
         dictionaryBill.updateValue(d, forKey: d.billId)
     }
@@ -47,11 +54,18 @@ public class Customer : IDisplay
     func display()
     {
         print("-------CUSTOMER INFORMATION--------")
-        print("customer id \(custId)")
-        print("firstname \(cfirstName)")
-        print("lastname \(clastName)")
-        print("Customer fullname \(cfullName)")
-        print("Customer email id \(custemailId)")
+        print("Customer Id : \(custId)")
+        print("First Name : \(cfirstName)")
+        print("Last Name : \(clastName)")
+        print("Customer Fullname : \(cfullName)")
+        
+        if self.isValidEmail(email: custemailId){
+             print("Customer Email ID : \(self.custemailId)")
+        }
+        else{
+            print("Customer Email ID : invalid email")
+        }
+    
         if dictionaryBill.isEmpty
             {
                 print(" Specified Customer do not have Bill to pay")
@@ -65,7 +79,7 @@ public class Customer : IDisplay
                     print("\t\t----------------------------------\n")
                     
                 }
-        print("\t\tTotal Bill Amount to Pay: \(calculateTotalBillAmount().formatCurrency())")
+        print("\t\tTotal Bill Amount to Pay : \(calculateTotalBillAmount().formatCurrency())")
                 print("\t\t-----------------------------------\n")
             
         }

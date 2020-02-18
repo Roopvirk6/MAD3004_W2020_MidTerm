@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B254B4623FCA7DB00399092 /* Insurance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B254B4523FCA7DB00399092 /* Insurance.swift */; };
 		9BA0B19E23F77C2E00CE5573 /* ExtensionofDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA0B19D23F77C2E00CE5573 /* ExtensionofDate.swift */; };
 		9BA0B1A023F77EBF00CE5573 /* ExtensionofINT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA0B19F23F77EBF00CE5573 /* ExtensionofINT.swift */; };
 		9BA0B1B523F7834600CE5573 /* Extensionoffloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA0B1B423F7834600CE5573 /* Extensionoffloat.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9B254B4523FCA7DB00399092 /* Insurance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insurance.swift; sourceTree = "<group>"; };
 		9B70856F23F60BAC00C661FD /* C0774174_W2020_MID_TERM_MAD3004 a */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C0774174_W2020_MID_TERM_MAD3004 a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA0B19D23F77C2E00CE5573 /* ExtensionofDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionofDate.swift; sourceTree = "<group>"; };
 		9BA0B19F23F77EBF00CE5573 /* ExtensionofINT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionofINT.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				9BA0B19D23F77C2E00CE5573 /* ExtensionofDate.swift */,
 				9BA0B19F23F77EBF00CE5573 /* ExtensionofINT.swift */,
 				9BA0B1B423F7834600CE5573 /* Extensionoffloat.swift */,
+				9B254B4523FCA7DB00399092 /* Insurance.swift */,
 			);
 			path = "C0774174_W2020_MID_TERM_MAD3004 a";
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			files = (
 				9BA0B1A023F77EBF00CE5573 /* ExtensionofINT.swift in Sources */,
 				9BAD066F23F75F3300D04929 /* Hydro.swift in Sources */,
+				9B254B4623FCA7DB00399092 /* Insurance.swift in Sources */,
 				9BAD066823F75F1900D04929 /* Customer.swift in Sources */,
 				9BAD067623F75F6B00D04929 /* main.swift in Sources */,
 				9BAD067123F75F3300D04929 /* Enum.swift in Sources */,

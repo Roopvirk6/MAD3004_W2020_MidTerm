@@ -62,11 +62,11 @@ public class Customer : IDisplay
                     
                 {
                     d.display()
-                    print("----------------------------------\n")
+                    print("\t\t----------------------------------\n")
                     
                 }
         print("\t\tTotal Bill Amount to Pay: \(calculateTotalBillAmount().formatCurrency())")
-                print("----------------------------------\n")
+                print("\t\t-----------------------------------\n")
             
         }
         

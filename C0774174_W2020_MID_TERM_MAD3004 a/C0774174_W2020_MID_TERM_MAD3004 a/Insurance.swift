@@ -14,6 +14,9 @@ public class Insurance : Bill
     var insuranceType : String
     var startDate = String()
     var endDate = String()
+
+    
+    
     init(billId: Int, billDate: String, billType: Enum.type, totalBillAmount: Float, provider : String, insuranceType : String, startDate : String, endDate : String)
     {
         self.provider = provider
@@ -22,12 +25,14 @@ public class Insurance : Bill
         self.endDate = endDate
         super.init(billId: billId, billDate: billDate, billType: billType, totalBillAmount: totalBillAmount)
     }
+    
     override func display() {
         super.display()
         print("\t\tInsurance provider name : \(provider)")
         print("\t\tInsurance type : \(insuranceType)")
         print("\t\tStart date : \(startDate)")
         print("\t\tEnd date : \(endDate)")
+       
         
     }
     
